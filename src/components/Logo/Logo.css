@@ -1,0 +1,34 @@
+.Tilt {    
+    background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+}
+
+.logoContainer {
+    width: 250px;   
+    height: 125px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.logoContainer img {
+    width: 50%;
+    height: 125px;
+}
+
+  @media only screen and (max-width: 1000px) {
+    .logoContainer {
+        width: 145px;  
+        height: 145px;     
+    }
+
+    .logoContainer img {
+        width: 50%;
+        height: 100%;      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logoContainer {
+        position: static;    
+    }    
+  }
